@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import { api } from "@/lib/apiClient";
+import { api } from "../../lib/apiClient";
 
 type Status = "idle" | "raspando" | "ganhou" | "perdeu" | "erro";
 
